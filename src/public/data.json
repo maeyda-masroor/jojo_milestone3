@@ -1,0 +1,47 @@
+{
+    "categories": [
+      { "id": "1", "name": "novelety items" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c5_b9vrpz.webp"},
+      { "id": "2", "name": "Discount&offers" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c8_r8nqhq.webp"},
+      { "id": "3", "name": "Chews&Candies" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c7_g8nhn3.webp"},
+      { "id": "4", "name": "Bubbles","image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c6_nrgwiq.webp" },
+      { "id": "5", "name": "Lollipop" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c4_bmmshu.webp"},
+      { "id": "6", "name": "jelly&marshmallow" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c2_dmld3x.webp"},
+      { "id": "7", "name": "Snack&Wafers" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c_tqxacc.webp"},
+      { "id": "8", "name": "Gift items" ,"image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c9_uuoxhw.webp"},
+      { "id": "9", "name": "Sour Items","image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c3_fjg7gx.webp" }
+    ],
+    "products": [
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
+      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
+      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
+      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." }
+   
+    ]
+  }
+  
