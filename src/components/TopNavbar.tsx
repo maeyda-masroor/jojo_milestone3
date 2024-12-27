@@ -7,9 +7,9 @@ import Profile from '../public/user.png';
 import Link from "next/link";
 export default function TopHeader() {
   return (
-    <header className="w-full bg-yellow-300 text-black lg:pl-56 lg:pr-56">
+    <header className="w-full bg-yellow text-black lg:pl-56 lg:pr-56 overflow-x-hidden mx-auto">
       <div className=" grid 
-          grid-cols-1 gap-4
+          grid-cols-1 gap-10
           lg:grid-cols-2 lg:gap-8">
         {/* First div with two items inline */}
        <div className="flex">

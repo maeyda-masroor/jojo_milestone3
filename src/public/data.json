@@ -11,37 +11,288 @@
       { "id": "9", "name": "Sour Items","image":"https://res.cloudinary.com/di1kessdw/image/upload/v1734752390/jojo/category/c3_fjg7gx.webp" }
     ],
     "products": [
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." },
-      { "id": "101", "categoryId": "1", "name": "Chocolate Chip Cookie", "price": 150, "description": "Delicious cookie." },
-      { "id": "102", "categoryId": "1", "name": "Oatmeal Cookie", "price": 400, "description": "Healthy and tasty." },
-      { "id": "201", "categoryId": "2", "name": "Red Velvet Cake", "price": 200, "description": "Rich and creamy." }
-   
+      {
+        "id": "101", 
+        "categoryId": "1",
+        "name": "Jojo Apple Delight",
+        "description": "Sweet and tangy apple-flavored jelly cubes.",
+        "flavours": ["Apple", "Sour"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 20,
+        "stock": 10,
+        "price":200,
+        "discount":0,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/crazy_bottle_pop_strawberry_b3b201bb-d80e-47d5-b5f4-506fbe9b1de9_380x446_vzbqb1.webp"
+      },
+      {
+        "id": "102", "categoryId": "1",
+        "name": "Jojo Berry Blast",
+        "description": "Mixed berry jelly bursting with fruity flavors.",
+        "flavours": ["Blueberry", "Raspberry", "Strawberry"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 25,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/crazy_bottle_pop_strawberry_b3b201bb-d80e-47d5-b5f4-506fbe9b1de9_1_n0hrpo.webp",
+        "stock": 20,
+        "price":200,
+        "discount":15
+
+      },
+      {
+        "id": "103", 
+        "categoryId": "2",
+        "name": "Jojo Citrus Zing",
+        "description": "A tangy combination of orange, lemon, and lime jelly.",
+        "flavours": ["Orange", "Lemon", "Lime"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 15,
+        "stock": 0,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy80_dz8zyz.webp"
+
+      },
+      {
+        "id": "104",
+        "categoryId": "2",
+        "name": "Jojo Tropical Mix",
+        "description": "Exotic tropical jellies for a refreshing treat.",
+        "flavours": ["Mango", "Pineapple", "Coconut"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 30,
+        "stock": 10,
+        "price":200,
+        "discount":0,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy100_sbapkq.webp"
+
+      },
+      {
+        "id": "105", 
+        "categoryId": "3",
+        "name": "Jojo Grape Fantasy",
+        "description": "Rich and juicy grape jelly with a hint of sweetness.",
+        "flavours": ["Grape"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 18,
+        "stock": 10,
+        "discount":15,
+        "price":200,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+
+      },
+      {
+        "id": "106", 
+        "categoryId": "3",
+        "name": "Jojo Watermelon Splash",
+        "description": "Cool and refreshing watermelon-flavored jelly.",
+        "flavours": ["Watermelon", "Sour"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 20,
+        "stock": 10,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+  
+
+      },
+      {
+        "id": "107", 
+        "categoryId": "4",
+        "name": "Jojo Peach Paradise",
+        "description": "Soft peach jelly cubes with a tropical twist.",
+        "flavours": ["Peach", "Passionfruit"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 24,
+        "price":200,
+        "stock": 10,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+      },
+      {
+        "id": "108", 
+        "categoryId": "5",
+        "name": "Jojo Cherry Bliss",
+        "description": "A perfect blend of sweet and tart cherry jelly.",
+        "flavours": ["Cherry", "Sour"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 19,
+        "price":200,
+        "stock": 10,
+        "discount":0,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+
+      },
+      {
+        "id": "109", 
+        "categoryId": "5",
+        "name": "Jojo Kiwi Kick",
+        "description": "Unique kiwi-flavored jelly for fruit lovers.",
+        "flavours": ["Kiwi"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 22,
+        "price":200,
+        "stock": 10,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+
+      },
+      {
+        "id": "110",
+        "categoryId": "5",
+        "name": "Jojo Coconut Dream",
+        "description": "Delicious coconut jelly for a tropical escape.",
+        "flavours": ["Coconut"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 20,
+        "price":200,
+        "stock": 10,
+        "discount":0,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+      },
+      {
+
+        "id": "111", 
+        "categoryId": "6",
+        "name": "Jojo Lemon Burst",
+        "description": "Zesty lemon jelly that packs a citrus punch.",
+        "flavours": ["Lemon"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 18,
+        "stock": 12,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+      },
+      {
+        "id": "112",
+         "categoryId": "7",
+        "name": "Jojo Mango Tango",
+        "description": "Tropical mango jelly with a hint of sourness.",
+        "flavours": ["Mango", "Sour"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 25,
+        "stock": 25,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
+
+      },
+      {
+        "id": "113", 
+        "categoryId": "8",
+        "name": "Jojo Raspberry Rush",
+        "description": "Juicy raspberry jelly for a fruity delight.",
+        "flavours": ["Raspberry"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 20,
+        "stock": 0,
+        "price":200,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp",
+        "discount":15
+  
+      },
+      {
+        "id": "114",
+        "categoryId": "9",
+        "name": "Jojo Blueberry Bliss",
+        "description": "Sweet blueberry jelly cubes for berry lovers.",
+        "flavours": ["Blueberry"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 22,
+        "stock": 6,
+        "price":200, 
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy117_aq6c7l.webp"
+
+      },
+      {
+        "id": "115", 
+        "categoryId": "9",
+        "name": "Jojo Passionfruit Twist",
+        "description": "Exotic passionfruit jelly with a tropical aroma.",
+        "flavours": ["Passionfruit"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 23,
+        "stock": 5,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy117_aq6c7l.webp"
+      },
+      {
+        "id": "116", 
+        "categoryId": "9",
+        "name": "Jojo Lime Love",
+        "description": "Tangy lime jelly with a refreshing kick.",
+        "flavours": ["Lime"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 18,
+        "stock": 8,
+        "discount":15,
+        "price":200,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/3_a38106cf-dd5b-4592-a9ce-ff62592737a9_xagtsu.webp"
+
+      },
+      {
+        "id": "117",
+        "categoryId": "9",
+        "name": "Jojo Strawberry Surprise",
+        "description": "Classic strawberry jelly with a sweet aroma.",
+        "flavours": ["Strawberry"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 24,
+        "stock": 10,
+        "discount":15,
+    
+        "price":200,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/3_a38106cf-dd5b-4592-a9ce-ff62592737a9_xagtsu.webp"
+
+      },
+      {
+        "id": "118",
+         "categoryId": "9",
+        "name": "Jojo Orange Fusion",
+        "description": "Citrusy orange jelly with a vibrant taste.",
+        "flavours": ["Orange"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 26,
+        "stock": 4,
+        "price":200,
+        "discount":15,
+    
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy100_sbapkq.webp"
+      },
+      {
+        "id": "119", 
+        "categoryId": "9",
+        "name": "Jojo Pineapple Bliss",
+        "description": "Tropical pineapple jelly with a sweet punch.",
+        "flavours": ["Pineapple"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 22,
+        "stock": 3,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106542/jojo/products/unicorn_hu0yhd.webp"
+      },
+      {
+        "id": "120", 
+        "categoryId": "9",
+        "name": "Jojo Sour Surprise",
+        "description": "A mix of sour jelly flavors for a tangy treat.",
+        "flavours": ["Sour", "Apple", "Cherry"],
+        "vendor_name": "Jojo Jelly",
+        "quantity": 3,
+        "stock": 2,
+        "price":200,
+        "discount":15,
+        "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106542/jojo/products/TingZingtary3_n5sloj.webp"
+      }
     ]
+    
   }
   
