@@ -2,7 +2,7 @@
 import { useSearchParams } from "next/navigation";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
-
+import { Suspense } from 'react';
 const OrderSummary: React.FC = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -33,5 +33,10 @@ const OrderSummary: React.FC = () => {
     </div>
   );
 };
+const OrderSummaryPage = () => (
+  <Suspense fallback={<div>Loading...</div>}>
+    <OrderSummary />
+  </Suspense>
+);
 
-export default OrderSummary;
+export default OrderSummaryPage;
