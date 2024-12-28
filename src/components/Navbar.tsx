@@ -4,7 +4,10 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Logo from '../public/logo.png';
-export default function Navbar() {
+import { useCart } from "../app/context/CartContext";
+const Navbar: React.FC = () => {
+  const { cart } = useCart();
+  const totalItems = cart.items.reduce((sum, item) => sum + item.quantity, 0);
   const [cartCount, setCartCount] = useState(0);
 
   useEffect(() => {
@@ -28,9 +31,11 @@ export default function Navbar() {
           <Link href="/wishlist">
            Wishlist
           </Link>
-          <Link href="/cart">Cart ({cartCount})</Link>
+          <Link href="/checkout">Cart ({totalItems})</Link>
       </div>
       </div>
     </nav>
   );
 }
+
+export default Navbar;
