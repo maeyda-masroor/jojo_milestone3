@@ -25,3 +25,100 @@ body {
     text-wrap: balance;
   }
 }
+.cart-modal {
+  position: fixed;
+  top: 0;
+  right: -400px; /* Hidden by default */
+  width: 400px;
+  height: 100%;
+  background-color:#ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  transition: right 0.3s ease-in-out; /* Smooth sliding animation */
+  z-index: 1000;
+  overflow-y: auto;
+}
+
+.cart-modal.open {
+  right: 0; /* Slide in when modal is open */
+}
+
+.cart-modal-content {
+  background-color:#ffffff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cart-modal-content h2 {
+  margin-top: 0;
+}
+
+.cart-modal-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart-modal-content li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.cart-modal-content button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.cart-modal-content button:hover {
+  background-color: darkred;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.modal-content button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-content button:hover {
+  background-color: #555;
+}

@@ -19,7 +19,7 @@
         "flavours": ["Apple", "Sour"],
         "vendor_name": "Jojo Jelly",
         "quantity": 20,
-        "stock": 10,
+        "stock": true,
         "price":200,
         "discount":0,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/crazy_bottle_pop_strawberry_b3b201bb-d80e-47d5-b5f4-506fbe9b1de9_380x446_vzbqb1.webp"
@@ -32,7 +32,7 @@
         "vendor_name": "Jojo Jelly",
         "quantity": 25,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/crazy_bottle_pop_strawberry_b3b201bb-d80e-47d5-b5f4-506fbe9b1de9_1_n0hrpo.webp",
-        "stock": 20,
+        "stock": false,
         "price":200,
         "discount":15
 
@@ -45,7 +45,7 @@
         "flavours": ["Orange", "Lemon", "Lime"],
         "vendor_name": "Jojo Jelly",
         "quantity": 15,
-        "stock": 0,
+        "stock": false,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy80_dz8zyz.webp"
@@ -59,7 +59,7 @@
         "flavours": ["Mango", "Pineapple", "Coconut"],
         "vendor_name": "Jojo Jelly",
         "quantity": 30,
-        "stock": 10,
+        "stock": false,
         "price":200,
         "discount":0,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy100_sbapkq.webp"
@@ -73,7 +73,7 @@
         "flavours": ["Grape"],
         "vendor_name": "Jojo Jelly",
         "quantity": 18,
-        "stock": 10,
+        "stock": true,
         "discount":15,
         "price":200,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
@@ -88,7 +88,7 @@
         "flavours": ["Watermelon", "Sour"],
         "vendor_name": "Jojo Jelly",
         "quantity": 20,
-        "stock": 10,
+        "stock":false,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
@@ -104,7 +104,7 @@
         "vendor_name": "Jojo Jelly",
         "quantity": 24,
         "price":200,
-        "stock": 10,
+        "stock": false,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
 
@@ -118,7 +118,7 @@
         "vendor_name": "Jojo Jelly",
         "quantity": 19,
         "price":200,
-        "stock": 10,
+        "stock": true,
         "discount":0,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
 
@@ -133,7 +133,7 @@
         "vendor_name": "Jojo Jelly",
         "quantity": 22,
         "price":200,
-        "stock": 10,
+        "stock": true,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
 
@@ -148,7 +148,7 @@
         "vendor_name": "Jojo Jelly",
         "quantity": 20,
         "price":200,
-        "stock": 10,
+        "stock": true,
         "discount":0,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
 
@@ -162,7 +162,7 @@
         "flavours": ["Lemon"],
         "vendor_name": "Jojo Jelly",
         "quantity": 18,
-        "stock": 12,
+        "stock": true,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
@@ -176,7 +176,7 @@
         "flavours": ["Mango", "Sour"],
         "vendor_name": "Jojo Jelly",
         "quantity": 25,
-        "stock": 25,
+        "stock": true,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp"
@@ -190,7 +190,7 @@
         "flavours": ["Raspberry"],
         "vendor_name": "Jojo Jelly",
         "quantity": 20,
-        "stock": 0,
+        "stock": true,
         "price":200,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy69_ojt1sr.webp",
         "discount":15
@@ -204,7 +204,7 @@
         "flavours": ["Blueberry"],
         "vendor_name": "Jojo Jelly",
         "quantity": 22,
-        "stock": 6,
+        "stock": true,
         "price":200, 
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy117_aq6c7l.webp"
@@ -218,7 +218,7 @@
         "flavours": ["Passionfruit"],
         "vendor_name": "Jojo Jelly",
         "quantity": 23,
-        "stock": 5,
+        "stock": false,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/Artboard1copy117_aq6c7l.webp"
@@ -231,7 +231,7 @@
         "flavours": ["Lime"],
         "vendor_name": "Jojo Jelly",
         "quantity": 18,
-        "stock": 8,
+        "stock": false,
         "discount":15,
         "price":200,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106540/jojo/products/3_a38106cf-dd5b-4592-a9ce-ff62592737a9_xagtsu.webp"
@@ -245,7 +245,7 @@
         "flavours": ["Strawberry"],
         "vendor_name": "Jojo Jelly",
         "quantity": 24,
-        "stock": 10,
+        "stock": false,
         "discount":15,
     
         "price":200,
@@ -260,7 +260,7 @@
         "flavours": ["Orange"],
         "vendor_name": "Jojo Jelly",
         "quantity": 26,
-        "stock": 4,
+        "stock": false,
         "price":200,
         "discount":15,
     
@@ -274,7 +274,7 @@
         "flavours": ["Pineapple"],
         "vendor_name": "Jojo Jelly",
         "quantity": 22,
-        "stock": 3,
+        "stock": true,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106542/jojo/products/unicorn_hu0yhd.webp"
@@ -287,7 +287,7 @@
         "flavours": ["Sour", "Apple", "Cherry"],
         "vendor_name": "Jojo Jelly",
         "quantity": 3,
-        "stock": 2,
+        "stock": true,
         "price":200,
         "discount":15,
         "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735106542/jojo/products/TingZingtary3_n5sloj.webp"
