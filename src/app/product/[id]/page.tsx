@@ -4,7 +4,7 @@ import { useState } from "react";
 import data from "../../../public/data.json";
 import Link from "next/link";
 import { useCart } from "../../context/CartContext";
-
+import Image from "next/image";
 export default function ProductDetails({ params }: { params: { id: string } }) {
   const { products } = data;
   const product = products.find((p) => p.id === params.id);
@@ -14,15 +14,26 @@ export default function ProductDetails({ params }: { params: { id: string } }) {
     const productWithQuantity = { ...product, quantity: 1 };
     addToCart(productWithQuantity);
   };
-
   return (
-    
     <div>
-      <h1>{product?.name}</h1>
-      <p>{product?.description}</p>
+    <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-4 lg:pl-56 lg:pr-56 mt-10">
+    <div className="p-4 text-white">
+    {product?.image && (
+    <Image src={product?.image} alt="x" width={400} height={500}/>
+    )}
+    </div>
+    <div className=" p-4 text-white">
+      <h1 className="text-6xl text-black">{product?.name}</h1>
+      <p className="text-4xl text-black">{product?.description}</p>
+      <p className="text-2xl text-black">{product?.vendor_name}</p>
+      <p className="text-xl text-black">{product?.quantity}</p>
       <p>Price: ${product?.price}</p>
-      <button onClick={() => handleAddToCart(product)}>Add to Cart</button>
+
+      <button className="bg-black text-white w-full h-16" onClick={() => handleAddToCart(product)}>Add to Cart</button>
       <Link href='/cart'>View Cart</Link>
+
+    </div>
+    </div>
     </div>
   );
 }
