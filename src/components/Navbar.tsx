@@ -44,7 +44,7 @@ const Navbar: React.FC = () => {
           </span>
         </div></Link>
 
-          <Link href="/checkout"><div className="relative w-10 h-10 flex items-center justify-center">
+          <Link href="/cart"><div className="relative w-10 h-10 flex items-center justify-center">
           {/* Icon */}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" width="24" height="24">
           <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zM7.938 6l-.938-4H2V2h4.307l1.689 7.455L5.509 12H19v-2H7.938zM6.062 14H19v2H6.062l-.969-4H2v-2h3.061L6.062 14z"/>

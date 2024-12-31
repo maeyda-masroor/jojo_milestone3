@@ -27,9 +27,14 @@ export default function ProductDetails({ params }: { params: { id: string } }) {
       <p className="text-4xl text-black">{product?.description}</p>
       <p className="text-2xl text-black">{product?.vendor_name}</p>
       <p className="text-xl text-black">{product?.quantity}</p>
-      <p>Price: ${product?.price}</p>
-
-      <button className="bg-black text-white w-full h-16" onClick={() => handleAddToCart(product)}>Add to Cart</button>
+      <p className="text-sm text-black">Price: ${product?.price}</p>
+      <ul className="flex gap-4">
+      {product?.flavours.map((product) => (
+       <li className="text-xl text-black p-2 border-2 border-black rounded-md">{product}</li>
+       
+      ))}
+      </ul>
+      <button className="bg-black text-white w-full h-16 mt-10" onClick={() => handleAddToCart(product)}>Add to Cart</button>
       <Link href='/cart'>View Cart</Link>
 
     </div>
