@@ -108,6 +108,7 @@ const { addToCart } = useCart();
         </svg>
               </button>
           </div>
+
           {product.stock ? (
        <button className="flex items-center bg-black text-yellow w-full h-10 px-4 py-2 rounded mt-10" onClick={() => handleAddToCart(product)}><span className="mr-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#ffffff" width="24" height="24">
           <path d="M7 18c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zm10 0c-1.104 0-2 .896-2 2s.896 2 2 2 2-.896 2-2-.896-2-2-2zM7.938 6l-.938-4H2V2h4.307l1.689 7.455L5.509 12H19v-2H7.938zM6.062 14H19v2H6.062l-.969-4H2v-2h3.061L6.062 14z"/>
@@ -115,6 +116,13 @@ const { addToCart } = useCart();
           ) : (
             <p className="text-red-500 text-lg">Out of Stock</p>
           )}
+           <p>
+        {product.stock > 0
+          ? product.stock <= 10
+            ? `Only ${product.stock} left`
+            : "In stock"
+          : "Out of stock"}
+          </p>
           </div>
 
       </div> 
