@@ -37,7 +37,7 @@ const router = useRouter();
       ) : (
         <div>
         {cart.items.map((item:any) => (
-          <div className="border-2 border-gray-300 p-4" key={item.id}>
+          <div className="border-2 border-gray-300 p-4 mt-10" key={item.id}>
         
           {/* Small top div inside the 60% div */}
           <div className="bg-black text-white  w-10 h-10 text-xl p-[5px]">

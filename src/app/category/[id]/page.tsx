@@ -42,7 +42,7 @@ const { addToCart } = useCart();
   // Filtering logic
   const finalProducts = sortedProducts.filter((product) => {
     if (filterOption === "all") return true; // Show all products
-    if (filterOption === "in-stock") return product.stock; // In stock only
+    if (filterOption === "in-stock") return product.stock > 0; // In stock only
     if (filterOption === "discount") return product.discount > 0; // Discounted items
     return true;
   });

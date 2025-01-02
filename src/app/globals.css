@@ -31,6 +31,7 @@ body {
   right: -400px; /* Hidden by default */
   width: 400px;
   height: 100%;
+  margin-top: 10px;
   background-color:#ffffff;
   display: flex;
   justify-content: flex-end;
@@ -38,6 +39,7 @@ body {
   transition: right 0.3s ease-in-out; /* Smooth sliding animation */
   z-index: 1000;
   overflow-y: auto;
+  border:1px solid black;
 }
 
 .cart-modal.open {
@@ -50,6 +52,7 @@ body {
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
 }
 
 .cart-modal-content h2 {
@@ -68,7 +71,7 @@ body {
 }
 
 .cart-modal-content button {
-  background-color: red;
+  background-color: black;
   color: white;
   border: none;
   padding: 5px;
@@ -76,7 +79,7 @@ body {
 }
 
 .cart-modal-content button:hover {
-  background-color: darkred;
+  background-color: black;
 }
 .modal-overlay {
   position: fixed;
@@ -97,7 +100,8 @@ body {
   border-radius: 8px;
   width: 400px;
   max-width: 90%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: auto;
+
 }
 
 .modal-content input {
@@ -121,4 +125,27 @@ body {
 
 .modal-content button:hover {
   background-color: #555;
+}
+.cart-close-btn {
+  position: absolute;
+  top:0; /* Move the button outside the top of the modal */
+  left: 0px; /* Adjust for positioning, or use 'left' if needed */
+  background-color: black; /* Red color for better visibility */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1100; /* Ensure it's above the modal */
+  transition: background-color 0.2s ease;
+}
+
+.cart-close-btn:hover {
+  background-color: #cc0000; /* Darker red on hover */
 }
