@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useCart } from "../../context/CartContext";
 import Image from "next/image";
 export default function ProductDetails({ params }: { params: { id: string } }) {
-  const { products } = data;
+  const { products ,categories} = data;
   const product = products.find((p) => p.id === params.id);
   const { addToCart } = useCart();
   const handleAddToCart = (product: any) => {
@@ -14,8 +14,25 @@ export default function ProductDetails({ params }: { params: { id: string } }) {
     const productWithQuantity = { ...product, quantity: 1 };
     addToCart(productWithQuantity);
   };
+  const category = categories.find((c) => c.id === product?.categoryId);
   return (
     <div>
+      {/* Breadcrumb */}
+      <nav className="p-4 lg:pr-56 lg:pl-56">
+        <ul className="flex items-center gap-2 text-black">
+          <li>
+            <Link href="/" className="text-blue-500">
+              Home
+            </Link>
+          </li>
+          <li>→</li>
+          <li>
+            {category?.name || "Category"}
+          </li>
+          <li>→</li>
+          <li>{product?.name || "Product"}</li>
+        </ul>
+      </nav>
     <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 gap-4 lg:pl-56 lg:pr-56 mt-10">
     <div className="p-4 text-white">
     {product?.image && (
